@@ -24,9 +24,9 @@ old_drive_left = 0
 old_drive_right = 0
 
 while True:
-    read_line = line.read()
-    print(read_line)
+
     values = line.read()
+    print("left: " + str(values["left"]) + " middle: " + str(values["middle"]) + " right: " + str(values["right"]))
     if values["left"] == 1:
         drive_left = speed
         drive_right = -speed
