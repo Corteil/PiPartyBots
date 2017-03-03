@@ -92,7 +92,7 @@ while True:
 
     # update motor values
 
-    ZB.SetMotor1(-drive_left * maxPower)
+    ZB.SetMotor1(drive_left * maxPower)
     ZB.SetMotor3(drive_left * maxPower)
     ZB.SetMotor2(drive_right * maxPower)
     ZB.SetMotor4(drive_right * maxPower)
